@@ -18,11 +18,13 @@ catch(error => handleError(error));
 // Routers
 const user = require('./routers/UserRouter');
 const setting = require('./routers/SettingRouter');
+const blog = require('./routers/BlogRouter');
 
 // Route Lists
 app.get('/', (req, res) => res.send('Backend!'))
 app.use('/api/user', user);
 app.use('/api/setting', setting);
+app.use('/api/blogs', blog);
 
 // if(process.env.NODE_ENV == "production"){
 //     app.use(express.static('build'))
