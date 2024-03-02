@@ -1,5 +1,5 @@
 const SettingModel = require('../models/SettingModel');
-var config = require('../config');
+var config = require('../config/config');
 
 module.exports = {
   create: (req, res) => {

@@ -1,5 +1,5 @@
 const UserModel = require('../models/UserModel');
-var config = require('../config');
+var config = require('../config/config');
 
 module.exports = {
     create: (req, res) => {

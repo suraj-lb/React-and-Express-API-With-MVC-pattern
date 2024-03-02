@@ -1,5 +1,5 @@
 const BlogModel = require('../models/BlogModel');
-const config = require('../config')
+const config = require('../config/config')
 
 module.exports = {
     getBlogs: (req, res) => {
